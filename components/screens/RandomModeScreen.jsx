@@ -1,6 +1,6 @@
 import {StyleSheet, TouchableHighlight, View} from "react-native";
 import {useState} from "react";
-import questionsHelper, {Question} from "../../assets/questionsHelper";
+import questionsHelper from "../../assets/questionsHelper";
 import {styles} from "../../assets/css/styles";
 import Ionicons from "@expo/vector-icons/Ionicons";
 import {SafeAreaView} from "react-native-safe-area-context";

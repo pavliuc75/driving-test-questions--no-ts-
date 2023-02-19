@@ -1,5 +1,5 @@
 import {FlatList, Image, StyleSheet, Text, TouchableHighlight, View} from "react-native";
-import questionsHelper, {Question} from "../assets/questionsHelper";
+import questionsHelper from "../assets/questionsHelper";
 import {useTranslation} from "react-i18next";
 import AnswerButton from "./AnswerButton";
 import RegularButton from "./RegularButton";
