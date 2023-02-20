@@ -1,8 +1,9 @@
 {
   "expo": {
-    "name": "driving-test-questions",
+    "name": "Examen Auto",
+    "description": "Examen Auto - Moldova (Экзамен ПДД - Молдова)",
     "slug": "driving-test-questions",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -19,7 +20,14 @@
     ],
     "ios": {
       "supportsTablet": false,
-      "bundleIdentifier": "com.pavliuc75.drivingtestquestions"
+      "bundleIdentifier": "com.pavliuc75.drivingtestquestions",
+      "infoPlist": {
+        "CFBundleAllowMixedLocalizations": true
+      }
+    },
+    "locales": {
+      "ru": "./localization/ru.json",
+      "ro": "./localization/ro.json"
     },
     "android": {
       "adaptiveIcon": {
